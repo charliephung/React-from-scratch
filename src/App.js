@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import Product from './components/Product';
 
 class App extends Component {
+	onUserClick() {
+		console.log(this);
+	}
+
 	render() {
 		let products = [
 			{
@@ -59,6 +63,14 @@ class App extends Component {
 							<div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								{elements}
 							</div>
+							
+							<div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								{/* Events find from facebook.github.io/react/docs/event.html */}
+								<button type="button" className="btn btn-success" onClick={ this.onUserClick }>
+									Click me
+								</button>
+							</div>
+							
 						</div>
 					</div>
 				</div>
