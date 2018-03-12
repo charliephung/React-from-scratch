@@ -3,7 +3,12 @@ import Product from './components/Product';
 
 class App extends Component {
 	onUserClick() {
-		console.log(this);
+		console.log("Click me");
+	}
+
+	// get value of rels.name
+	onButtonClick = () => {
+		console.log(this.refs.name.value);
 	}
 
 	render() {
@@ -60,6 +65,22 @@ class App extends Component {
 				<div className="container">
 					<div className="row">
 						<div className="row">
+							
+							<div className="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+								<div className="panel panel-danger">
+									<div className="panel-body">
+									   	<div className="form-group">
+										<label >Product Name</label>
+										<input className="form-control" type="text" ref="name"/>
+									</div>
+									{/* add event handle when click button */}
+									<button onClick={ this.onButtonClick } type="button" className="btn btn-large btn-success">
+										Add product										
+									</button>
+									</div>
+								</div>
+							</div>
+							
 							<div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								{elements}
 							</div>
