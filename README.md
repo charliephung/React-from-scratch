@@ -1,3 +1,10 @@
-# React-from-scratch
+#Simple Form
 
-Simple Color Picker with REACT
+#Hanling input 
+ Type:
+ text
+ password
+ textarea
+ select option
+ radiobox
+ checkbox

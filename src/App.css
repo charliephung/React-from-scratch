@@ -1,31 +1,32 @@
-
-.active {
-    transform: scale(1.2) !important;
-    border: .4rem solid lightslategray
-}
-			
-span {
-    height: 5rem;
-    width: 5rem;
-    border-radius: .5rem;
-    display: inline-block;
-    margin-left: 1.5rem;
-    box-shadow: 0rem 0rem .5rem rgba(0, 0, 0, .4);
-    transition: all .5s;
-    cursor: pointer;
-    position: relative;
+.App {
+  text-align: center;
 }
 
-span:hover {
-    transform: scale(1.2);
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
 }
 
-#result-content {
-    border: .4rem solid;
-    display: inline-block;
-    padding: 1rem;
-    border-radius: 2rem;
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
 }
-#result-content p {
-    margin: 0;
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.u-margin-medium {
+  margin-top: 3rem;
 }
