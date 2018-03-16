@@ -1,10 +1,11 @@
-#Simple Form
+				# WorkManager-ReactJS-
 
-#Hanling input 
- Type:
- text
- password
- textarea
- select option
- radiobox
- checkbox
+
+
+Feature: 
+	# Add
+	# Sort
+	# Filter, Search
+	# Edit
+	# Delete
+	# Store in LocalStorage (Data lost when clear history)
